@@ -40,11 +40,7 @@ const TaskList = () => {
   };
   return (
     <>
-    <div>
-        <h1>Task List</h1>
-        Single click to change task status<br></br>
-        Double click to delete task
-    </div>
+
       <div>
         <input type="text" onChange={(e)=>setName(e.target.value)} placeholder="input task name" />
         <button type="button" onClick={addItem}>Add</button>
